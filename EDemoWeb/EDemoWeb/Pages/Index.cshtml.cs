@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace EDemoWeb.Pages
 {
@@ -14,7 +13,7 @@ namespace EDemoWeb.Pages
 
         public void OnGet()
         {
-            throw new Exception("This is a test exception");
+            
         }
     }
 }
