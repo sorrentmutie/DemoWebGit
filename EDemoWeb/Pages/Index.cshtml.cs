@@ -8,12 +8,12 @@ namespace EDemoWeb.Pages
 
         public IndexModel(ILogger<IndexModel> logger)
         {
-            _logger = logger
+            _logger = logger;
         }
 
         public void OnGet()
         {
-            throw new Exception("Errore gravissimo!");
+           // throw new Exception("Errore gravissimo!");
         }
     }
 }
