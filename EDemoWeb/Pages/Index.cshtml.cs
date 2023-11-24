@@ -13,7 +13,7 @@ namespace EDemoWeb.Pages
 
         public void OnGet()
         {
-            
+            throw new Exception("Errore gravissimo!");
         }
     }
 }
