@@ -4,7 +4,7 @@
     {
         public int Somma(int a, int b)
         {
-            return a + 2 * b;
+            return a + b;
         }   
     }
 }
