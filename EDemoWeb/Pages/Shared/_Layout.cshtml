@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.ApplicationInsights.AspNetCore
+@inject JavaScriptSnippet MyJavaScriptSnippet
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -7,6 +9,8 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/EDemoWeb.styles.css" asp-append-version="true" />
+    @Html.Raw(MyJavaScriptSnippet.FullScript)
+
 </head>
 <body>
     <header>
